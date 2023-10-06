@@ -21,6 +21,8 @@ The RF design is built for the "standard" 1.6mm thick JLCPCB 4-layer stackup con
 - 210.4µm Prepreg (7628, RC 49%, 8.6mil)
 - 35µm Outer copper
 
+For finish please choose ENIG.
+
 ## License
 All files in this repository are licensed under the MIT license EXCEPT for the files in the `/3d` directory.
 
