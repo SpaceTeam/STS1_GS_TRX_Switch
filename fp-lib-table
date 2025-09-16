@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "saw")(type "KiCad")(uri "${KIPRJMOD}/saw.pretty")(options "")(descr ""))
+  (lib (name "btt6050-2eka")(type "KiCad")(uri "${KIPRJMOD}/btt6050-2eka.pretty")(options "")(descr ""))
+  (lib (name "fbead")(type "KiCad")(uri "${KIPRJMOD}/fbead.pretty")(options "")(descr ""))
+  (lib (name "SMA")(type "KiCad")(uri "${KIPRJMOD}/SMA.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lna_library")(type "KiCad")(uri "${KIPRJMOD}/lna_library.kicad_sym")(options "")(descr ""))
+  (lib (name "btt6050-2eka")(type "KiCad")(uri "${KIPRJMOD}/btt6050-2eka.kicad_sym")(options "")(descr ""))
+)
