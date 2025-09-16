@@ -1,14 +1,16 @@
 # Ground Station TRX Switch
 
-This boards provides sequencing and switching for transmit and receive path of a satellite groundstation based on two galvanically isolated inputs.
+This boards provides sequencing and switching for transmit and receive path of a satellite groundstation based on two galvanically isolated inputs.  
+It features an on-board LNA with filter and pre and post filtering for an external power amplifier.  
+It also provides ~30V switched for the PA derived from one common 48V supply.
 
 It is controlled by an Arduino Nano which is used for timing.
-It features two relay outputs for enabling a PA and LNA and three coaxial relays for RX/TX switching and antenna grounding (when neither RX nor TX is enabled).
+It features two high-side MOSFET outputs for enabling a PA and LNA and three coaxial relays for RX/TX switching and antenna grounding (when neither RX nor TX is enabled).
 
-The design was built for 435MHz but it should work up to 3GHz, although you might want to look into an impedance controlled PCB stackup for that and re-calculate the trace width with the better stackup.
+The design was built for around 435MHz but probably is easy to adapt to different frequencies up to 3GHz.
 
-![v1.0 Front side 3D render](images/v1.0_front.png)
-![v1.0 Back side 3D render](images/v1.0_back.png)
+![v2.0 Front side 3D render](images/v2.0_front.png)
+![v2.0 Back side 3D render](images/v2.0_back.png)
 
 ## Ordering
 
