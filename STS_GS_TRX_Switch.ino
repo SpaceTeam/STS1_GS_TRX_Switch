@@ -13,9 +13,9 @@ const int paCurrentIn = A0;
 // Maximum operation time of TE HF3 relays is 5ms.
 // Maximum release time is 6ms.
 // Exit time is mostly impacted by how long the LNA/PA take to "wind down" after power supply is cut.
-const unsigned long rxEnterMillis = 5;
-const unsigned long rxExitMillis = 10;
-const unsigned long txEnterMillis = 10;
+const unsigned long rxEnterMillis = 25;
+const unsigned long rxExitMillis = 15;
+const unsigned long txEnterMillis = 15;
 const unsigned long txExitMillis = 100;
 const unsigned long minInvalidMillis = 50;
 
